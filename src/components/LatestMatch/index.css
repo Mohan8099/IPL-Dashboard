@@ -1,0 +1,163 @@
+.latest-matches-container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.latest-matches-heading {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+
+.latest-matches-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  border-radius: 14px;
+  padding: 10px 15px 10px 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-matches-card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.latest-matches-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-matches-logo-container {
+    width: 60%;
+  }
+}
+
+.latest-matches-details-container {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-matches-details-container {
+    width: 100%;
+  }
+}
+
+.team-names {
+  font-size: 38px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-names {
+    font-size: 52px;
+  }
+}
+
+.venue,
+.status {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .venue,
+  .status {
+    font-size: 20px;
+  }
+}
+
+.date {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .date {
+    font-size: 28px;
+  }
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    min-width: 150px;
+    min-height: 150px;
+    max-height: 200px;
+  }
+}
+
+.match-details-info {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 767px) {
+  .match-details-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 768px) {
+  .match-details-info {
+    text-align: right;
+    width: 33%;
+    padding-left: 0px;
+    padding-right: 32px;
+  }
+}
+
+.matches-info-card {
+  width: 43%;
+  padding: 8px;
+  border-radius: 25px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  min-height: 100px;
+  max-height: 200px;
+}
+
+.match-label {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-label {
+    font-size: 18px;
+  }
+}
+
+.match-details {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-details {
+    font-size: 14px;
+  }
+}
